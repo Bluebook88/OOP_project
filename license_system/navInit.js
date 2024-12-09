@@ -16,12 +16,12 @@ document.write(`
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="userNavbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             User
                         </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="userNavbarDropdown">
                             <li><a class="dropdown-item" href="userList.html">User List</a></li>
                             <li> 
                                 <hr class="dropdown-divider">
@@ -29,6 +29,23 @@ document.write(`
                             <li><a class="dropdown-item" href="addUser.html">Add User</a></li>
                             <li><a class="dropdown-item" href="updateUser.html">Update User</a></li>
                             <li><a class="dropdown-item" href="deleteUser.html">Delete User</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="vioNavbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Violation
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="vioNavbarDropdown">
+                            <li><a class="dropdown-item" href="violationList.html">Violation List</a></li>
+                            <li> 
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="addViolation.html">Add Violation</a></li>
+                            <li><a class="dropdown-item" href="updateViolation.html">Update Violation</a></li>
+                            <li><a class="dropdown-item" href="deleteViolation.html">Delete Violation</a></li>
                         </ul>
                     </li>
                 </ul>
